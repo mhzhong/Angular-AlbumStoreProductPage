@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+<<<<<<< HEAD
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,
